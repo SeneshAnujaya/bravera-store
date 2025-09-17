@@ -1,14 +1,15 @@
 import React from 'react'
 // import { assets } from '../assets/assets'
 import {Link} from 'react-router-dom'
+import BraveraLogo from '../assets/bravera-logo.png';
 
 const Footer = () => {
   return (
     <div className=''>
     <div className='flex flex-col sm:grid grid-cols-[3fr_1fr_1fr_1fr] gap-14 my-14 text-sm border-t border-t-gray-300 pt-8 px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]'>
         <div>
-            {/* <img src={assets.logo} className='mb-5 w-32' alt='footer-lgo' /> */}
-             <p className="text-2xl font-medium mb-2">BRAVERA</p>
+            <img src={BraveraLogo} className='mb-5 w-36' alt='footer-lgo' />
+             {/* <p className="text-2xl font-medium mb-2">BRAVERA</p> */}
             <p className='w-full md:w-2/3 text-gray-600 text-[0.95rem] font-light'>
             blends timeless style with modern edge. Discover thoughtfully curated fashion that elevates your everyday wardrobe — made to move with you.
             </p>
@@ -49,7 +50,7 @@ const Footer = () => {
     </div>
     <div>
     <hr className='border-gray-300'/>
-    <p className='py-5 text-sm text-center'>Copyright 2025@ BREVERA  - All Right Reserved. </p>
+    <p className='py-5 text-sm text-center'>© 2025 BREVERA – All Rights Reserved. </p>
 </div>
 </div>
 
