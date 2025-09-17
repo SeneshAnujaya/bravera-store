@@ -56,7 +56,8 @@ const HeroSlider = () => {
     <Swiper
       modules={[Autoplay, Pagination, Navigation, EffectFade]}
       effect="fade"
-      autoplay={false}
+      autoplay={ {delay: 3000,
+    disableOnInteraction: false}}
       loop
       pagination={false}
       navigation={false}
