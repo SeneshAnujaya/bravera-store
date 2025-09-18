@@ -272,6 +272,7 @@ const Collection = () => {
               id={item.product_code}
               price={item.price}
               image={item.image}
+              color={item.color}
             />
           ))}
         </div>
